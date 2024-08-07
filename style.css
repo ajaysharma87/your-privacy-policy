@@ -1,0 +1,505 @@
+/* RESET */
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+/* RESET END */
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: url("/fonts/Gotham-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GothamBlack";
+    src: url("/fonts/Gotham-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: url("/fonts/Gotham-Light.otf") format("opentype");
+}
+
+body {
+    background-color: #FFFFFF;
+    font-style: normal;
+    color: #000000;
+    font-family: GothamLight, Arial;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+input {
+    background-color: #FFFFFF;
+    font-style: normal;
+    color: #000000;
+    font-family: GothamLight, Arial;
+    font-size: 24px;
+    line-height: 160%;
+    border: solid 2px #005386;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+textarea {
+    background-color: #FFFFFF;
+    font-style: normal;
+    color: #000000;
+    font-family: GothamLight, Arial;
+    font-size: 24px;
+    line-height: 160%;
+    border: solid 2px #005386;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a {
+    color: #005386;
+    font-family: GothamBlack, Arial;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 980px;
+}
+
+header {
+    margin: 0;
+    padding: 0
+}
+
+header .logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: url("/img/logo/logo200x200.png") no-repeat scroll 0 0 transparent;
+    text-indent: -9999px;
+    background-size: contain
+}
+
+header.hp .logo {
+    width: 150px;
+    height: 150px;
+    background: url("/img/logo/logo300x300.png") no-repeat scroll 0 0 transparent;
+    background-size: contain
+}
+
+h1 {
+    font-family: GothamBlack, Arial;
+    font-size: 35px;
+    margin-top: 60px;
+    color: #b00000
+}
+
+.tagline {
+    display: block;
+    text-align: center;
+    color: #404040;
+    font-size: 18px;
+    font-family: GothamLight, Arial;
+}
+
+.main_menu {
+    margin: 30px 0;
+    text-align: center;
+    border-top: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8
+}
+
+.main_menu li {
+    display: inline-block;
+    padding: 0 20px
+}
+
+.main_menu a {
+    font-family: GothamBlack, Arial;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.hpcont p {
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.hpcont p span {
+    font-weight: bold;
+    color: #b00000;
+}
+
+.hpcont table {
+    margin: 20px auto 0px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.hpcont table td {
+    text-align: center;
+    padding: 15px 0;
+    width: 50%;
+}
+
+.hpcont table td img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.hpcont table td strong {
+    display: block;
+    font-size: 40px;
+    margin-top: 10px;
+    font-family: GothamBlack, Arial;
+    color: #000;
+}
+
+.hpcont table td span {
+    display: block;
+    color: #000;
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+.apps h2 {
+    font-family: Gotham, Arial;
+    margin: 0 0 10px 20px
+}
+
+.apps div {
+    margin: 40px 0 0 0;
+    background-color: #f8f8f8;
+    border-radius: 30px;
+    padding: 20px 20px 0px 20px;
+    border: solid 1px #f0f0f0
+}
+
+.apps div .logo {
+    width: 160px;
+    height: 160px;
+    float: left;
+    padding-right: 15px
+}
+
+.apps div .descr {
+    font-size: 20px
+}
+
+.apps div .badge {
+    display: block;
+    text-align: right
+}
+
+.apps div .badge img {
+    width: 220px
+}
+
+.news {
+    margin: 0 auto;
+    padding: 0 10%;
+    max-width: 980px
+}
+
+.privacy .last_up {
+    color: #bc0000;
+    text-align: right;
+    font-size: 18px
+}
+
+.privacy h2 {
+    margin-top: 40px;
+    font-family: GothamBlack, Arial;
+    color: #b00000
+}
+
+.privacy ul {
+    margin-left: 60px
+}
+
+.privacy strong {
+    font-family: GothamBold, Arial;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact label {
+    display: block;
+    font-family: GothamBlack, Arial;
+    color: #b00000;
+    margin-top: 30px
+}
+
+.contact .field_short {
+    width: 60%;
+    min-width: 250px;
+}
+
+.contact .field_long {
+    width: 80%;
+    min-width: 300px;
+}
+
+.contact textarea {
+    height: 200px
+}
+
+.contact button {
+    background-color: #b00000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-family: GothamBlack, Arial;
+    font-size: 24px;
+    padding: 20px 30px;
+    border: solid 1px #b00000;
+}
+
+footer {
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+    border-top: solid 1px #e8e8e8
+}
+
+footer .social {
+    margin-top: 20px
+}
+
+footer .social a {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+footer .social a.facebook {
+    background-image: url('/img/facebook.png');
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+
+footer .social a.instagram {
+    background-image: url('/img/instagram.png');
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+
+footer .social a.twitter {
+    background-image: url('/img/twitter.png');
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 40px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px #005386;
+    text-align: center;
+}
+
+.cookie-banner p {
+    margin-bottom: 10px;
+}
+
+.close {
+    background-color: #b00000;
+    font-family: GothamBlack, Arial;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
